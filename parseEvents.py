@@ -26,7 +26,7 @@ def parseUsers():
             file = file.split("\n")
             
             for line in file:
-    
+                
                 line = line.split(",")
     
                 if line == ['']:
